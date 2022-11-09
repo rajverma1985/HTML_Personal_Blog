@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<! -- Header Element Example -->
+<!-- addeded styles css -->
+<link rel="stylesheet" href="css/styles.css">
+
+<!-- Header Element Example -->
 <head>
     <meta charset="UTF-8" />
     <title>Document 🖤</title>
 </head>
-<! -- Body Element Example -->
-<body>
-  <! -- Image Element Example -->
-  <img src="images/profile_pic-modified.png" alt="My profile picture">
-  <h1>Raj Verma</h1>
-  <! -- Better to use 'em' instead of 'i' for emphasis, and strong 'instead' of 'bold'-->
-  <p><em><strong><u>✅DATABASES |✅ DEVOPS |✅ MACHINE LEARNING |✅ DATA SCIENCE</u></strong></em></p>
-  <! -- Href/url/link Element Example -->
-  <p><a href="https://www.linkedin.com/in/rajtechbytes/">Database Expert & Devops and Datascience Enthusiast</a></p>
+  <!-- Body Element Example -->
+
+<body class="blue_colour">
+  <table cellspacing="20">
+    <tr>
+      <td><!-- Image Element Example --><img class="circular" src="images/profile_pic.jpg" alt="My profile picture"></td>
+      <td><h1>Raj Verma</h1>
+      <!-- Better to use 'em' instead of 'i' for emphasis, and strong 'instead' of 'bold'-->
+      <p><em><strong><u>✅DATABASES |✅ DEVOPS |✅ MACHINE LEARNING |✅ DATA SCIENCE</u></strong></em></p>
+      <!-- Href/url/link Element Example -->
+      <p><a href="https://www.linkedin.com/in/rajtechbytes/">Database Expert & Devops and Datascience Enthusiast</a></p></td>
+    </tr>
+  </table>
+
   <hr>
-  <h3>📚 Books and Publications</h3>
-  <! -- unordered list Element Example -->
+  <h3 id="heading">📚 Books and Publications</h3>
+  <!-- unordered list Element Example -->
   <ul>
     <li>PostgreSQL Internals</li>
     <li>Accidental to Expert - PostgreSQL</li>
   </ul>
-  <h3>🎮 Hobbies</h3>
-  <! -- ordered list Element Example -->
+  <hr>
+  <h3 id="heading2">🎮 Hobbies</h3>
+  <!-- ordered list Element Example -->
   <ol>
     <li>Cricket</li>
     <li>Coding</li>
@@ -30,18 +39,18 @@
     <li>Cooking</li>
     <li>Painting</li>
   </ol>
+  <hr>
 <h3>Skills</h3>
-<hr>
-<! -- Table Element Example -->
+  <!-- Table Element Example -->
 <table>
-  <! -- Head Element Example -->
+  <!-- Head Element Example -->
   <thead>
-    <tr>
+    <tr id="heading2">
       <th>Skill</th>
       <th>Proficiency</th>
     </tr>
   </thead>
-  <! -- Table body Element Example -->
+  <!-- Table body Element Example -->
   <tbody>
       <tr>
         <td>SQL</td>
@@ -65,7 +74,9 @@
       </tr>
   </tbody>
 </table>
-<p><a href="contact-me.html">Contact Me</a></p>
+<hr>
+  <!-- links or hrefs Element Example -->
+<a id=heading2 href="contact-me.html"><strong>Contact Me</strong></a>
 
 </body>
 </html>

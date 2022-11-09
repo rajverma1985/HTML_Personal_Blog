@@ -1,0 +1,42 @@
+/***************************TAG SELECTORS*****************************/
+body{
+  background-color: #9EE1EF;
+}
+h1{
+  color: #10A3C0;
+}
+h3{
+  color: #10A3C0
+}
+hr {
+  background-color: #9EE1EF;
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 3px;
+  width: 10%;
+}
+
+/***************************CLASS SELECTORS*****************************/
+/* an object can use multiple classes but multiple ids, use these more to effectively work with styling*/
+
+.blue_colour{
+  color: blue;
+}
+
+.green_colour{
+  color: green;
+}
+
+.circular{
+  border-radius: 100%
+}
+/***************************ID SELECTORS*****************************/
+/* THESE are to be USED ONLY when you MUST identify a single entity on the entire page like one heading or navigation bar*/
+
+#heading{
+  color: orange;
+}
+
+#heading2{
+  color: brown;
+}
