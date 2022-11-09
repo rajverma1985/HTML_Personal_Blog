@@ -28,7 +28,7 @@ hr {
 }
 
 .circular{
-  border-radius: 100%
+  border-radius: 100%;
 }
 /***************************ID SELECTORS*****************************/
 /* THESE are to be USED ONLY when you MUST identify a single entity on the entire page like one heading or navigation bar*/
