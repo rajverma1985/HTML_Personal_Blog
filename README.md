@@ -5,9 +5,7 @@
 <ol><ul><li> lists
 <form> forms
 
-
 # Common Inline elements>> takes only the space needed
-
 <img> images
 <span> spans
 <a> anchors
