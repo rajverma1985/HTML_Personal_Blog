@@ -30,6 +30,18 @@ hr {
 }
 
 
+ol{
+  display: inline-block;
+  text-align: left;
+}
+
+
+ul{
+  display: inline-block;
+  text-align: left;
+}
+
+
 .circular{
   margin-top: 50px;
   border-radius: 100%;
@@ -40,28 +52,30 @@ hr {
   border-radius: 10px;
   width: 15%;
   float: left;
-  margin-right: 30px;
+  margin-right: 5px;
 }
+
+
 
 .oval_right{
   border-radius: 10px;
   width: 15%;
   float: right;
-  margin-left: 30px;
+  margin-left: 5px;
 }
 
 .images_left{
   border-radius: 100%;
   width: 15%;
   float: left;
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
 .images_right{
   border-radius: 100%;
-  width: 25%;
+  width: 15%;
   float: right;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 .icons{
   max-width: 30px;
@@ -94,11 +108,9 @@ hr {
 margin: auto 10px auto 10px;
 }
 
-.skill-row{
-  width: 50%;
+.skills-row{
+  width: 65%;
   margin: 100px auto 100px auto;
-  text-align: left;
-  line-height: 1.2;
 }
 
 
@@ -145,17 +157,22 @@ margin: auto 10px auto 10px;
 }
 
 /* Table related stuff */
-.table-nonborder{
+.table-no-border{
   table-layout: auto;
-  width: 100%;
-  border: 1px solid red;
+  width: 80%;
+  text-align: center;
 }
 
-td {
-  padding-top:10px;
-  padding-bottom:10px;
-  padding-right:40px;
+
+.table-border{
+  table-layout: auto;
+  width: 80%;
+  border: 1.5px solid grey;
 }
+
+td:hover{
+  background-color: green;
+} 
 
 
 /* rating stuff*/
