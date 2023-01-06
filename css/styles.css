@@ -56,7 +56,6 @@ ul{
 }
 
 
-
 .oval_right{
   border-radius: 10px;
   width: 15%;
@@ -77,29 +76,42 @@ ul{
   float: right;
   margin-left: 10px;
 }
+
 .icons{
   max-width: 30px;
   padding-right: 30px;
 }
+
 .top-container{
-  background-color: #00ABB3;
+  background-color: #FECC7A;
   position: relative;
   padding-top: 100px;
 }
 
 .top-cloud{
-  position: absolute;
+  position: fixed;
   right: 300px;
   top: 50px;
 }
+
 
 .span{
   text-decoration: underline;
   font-family: 'Raleway', sans-serif;
 }
 
+.mountain{
+  position: relative;
+}
+
+.runner{
+  position: relative;
+  background-color: #FECC7A;
+}
+
+
 .bottom-cloud{
-  position: absolute;
+  position: fixed;
   left: 300px;
   bottom: 350px
 }
@@ -115,7 +127,7 @@ margin: auto 10px auto 10px;
 
 
 .middle-container{
-  background-color: #B2B2B2;
+  background-color: #939B62;
   position: relative;
   padding-bottom: 100px;
 }
@@ -150,7 +162,7 @@ margin: auto 10px auto 10px;
 
 
 .bottom-container{
-  background-color: #EAEAEA;
+  background-color: #FFB26B;
   position: relative;
   padding-top: 20px;
   padding-bottom: 20px;
