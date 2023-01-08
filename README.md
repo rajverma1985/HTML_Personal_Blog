@@ -2,11 +2,11 @@
 
 LEGEND:
 =======
-- <p> paragraphs
-- <h1> to <h6> headers
-- <div> divs
-- <ol><ul><li> lists
-- <form> forms
+- "<p> paragraphs"
+- "<h1> to <h6> headers"
+- "<div> divs"
+- "<ol><ul><li> lists"
+- "<form> forms"
 
 ## Common Inline elements>> takes only the space needed
 - <img> images
