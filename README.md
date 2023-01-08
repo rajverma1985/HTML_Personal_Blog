@@ -2,7 +2,7 @@
 
 LEGEND:
 =======
-- "<p> paragraphs"
+- '<p> paragraphs'
 - "<h1> to <h6> headers"
 - "<div> divs"
 - "<ol><ul><li> lists"
