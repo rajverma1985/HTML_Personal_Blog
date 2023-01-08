@@ -2,8 +2,8 @@
 
 LEGEND:
 =======
-- <p> paragraphs </p>
-- <h1> to <h6> headers
+- <p> <p> paragraphs </p>
+- <p> <h1> to <h6> headers </p>
 - "<div> divs"
 - "<ol><ul><li> lists"
 - "<form> forms"
