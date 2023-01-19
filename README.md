@@ -14,3 +14,7 @@ LEGEND:
 - <a> anchors
 
 ### IMP positions attrib in styling are absolute, relative and fixed(this helps fix the position when other elements can move)
+
+- New info to be added
+- add experience
+- add skills
