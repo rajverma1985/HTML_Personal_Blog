@@ -1,5 +1,4 @@
 # Common Block elements>> takes the entire block of the page
-
 LEGEND:
 =======
 - <p> paragraphs
